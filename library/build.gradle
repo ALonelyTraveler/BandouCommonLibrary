@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
@@ -19,5 +19,18 @@ android {
 }
 
 dependencies {
+    /**日志功能：https://github.com/pengwei1024/LogUtils**/
     compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+//添加
+publish {
+    artifactId = 'library'//模块名称
+    userOrg = rootProject.userOrg
+    groupId = rootProject.groupId
+    uploadName = rootProject.uploadName //模块上传后所在的文件夹名称
+    publishVersion = rootProject.publishVersion//模块版本号
+    desc = rootProject.description//模块的描述
+    website = rootProject.website //模块的网站
+    licences = rootProject.licences //模块的licences
 }
