@@ -48,3 +48,11 @@
 |VerificationUtils|正则表达式验证|
 |ScrollGridView|可嵌套的GridView|
 |ScrollListView|可嵌套的ListView|
+
+## 更新日志
+
+>
+>0.1.1-Beta (2016-7-20)
+>
+>* 初始化版本
+>
