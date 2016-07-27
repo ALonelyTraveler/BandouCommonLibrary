@@ -114,7 +114,7 @@ public class PreferencesUtils {
      * @param defaultObject the default object
      */
     public static void get(Context context, String key, Object defaultObject) {
-        put(context,sPreferencesName,key,defaultObject);
+        get(context,sPreferencesName,key,defaultObject);
     }
 
     /**
