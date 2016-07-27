@@ -112,9 +112,10 @@ public class PreferencesUtils {
      * @param context       the context
      * @param key           the key
      * @param defaultObject the default object
+     * @return the object
      */
-    public static void get(Context context, String key, Object defaultObject) {
-        get(context,sPreferencesName,key,defaultObject);
+    public static Object get(Context context, String key, Object defaultObject) {
+        return get(context,sPreferencesName,key,defaultObject);
     }
 
     /**
