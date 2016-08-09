@@ -2,7 +2,7 @@
 对平时常用的工具类进行整理，方便开发者进行调用。
 
 ##当前版本(VERSION)
-[![Maven Central](https://img.shields.io/badge/VERSION-0.1.1--Beta-orange.svg)](https://bintray.com/gcssloop/maven/sutil/view)
+[![Maven Central](https://img.shields.io/badge/VERSION-0.1.3--Beta-orange.svg)](https://bintray.com/gcssloop/maven/sutil/view)
 
 ## gradle依赖
 
