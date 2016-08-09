@@ -2,7 +2,7 @@
 对平时常用的工具类进行整理，方便开发者进行调用。
 
 ##当前版本(VERSION)
-[![Maven Central](https://img.shields.io/badge/VERSION-0.1.3--Beta-orange.svg)](https://bintray.com/gcssloop/maven/sutil/view)
+[![Maven Central](https://img.shields.io/badge/VERSION-0.1.4--Beta-orange.svg)](https://bintray.com/gcssloop/maven/sutil/view)
 
 ## gradle依赖
 
@@ -52,7 +52,19 @@
 ## 更新日志
 
 >
->0.1.1-Beta (2016-7-20)
+>0.1.5-Beta (2016-8-9)
+>
+>* AppUtils添加isAppOnForeground方法判断Activity是否在栈顶
+>
+> ------------------------------------------
+>
+>0.1.4-Beta (2016-8-9)
+>
+>* AppUtils添加isTopActivityInApp方法判断Activity是否在栈顶
+>
+> ------------------------------------------
+>
+>0.1.3-Beta (2016-7-20)
 >
 >* 初始化版本
 >
